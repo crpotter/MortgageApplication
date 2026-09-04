@@ -6,6 +6,8 @@
       *    TO AN INTEGER IN A CALLED PROGRAM TO DETERMINE DAYS
       *    FROM CURRENT DATE.
       *
+      *.   10/1/2026 - Update flags
+      *
       *    (C) 2017 IBM - JIM HILDNER RESERVED.
        ENVIRONMENT DIVISION.
       *
@@ -18,7 +20,7 @@
                88  SEND-DATAONLY                VALUE '2'.
                88  SEND-MAPONLY                 VALUE '3'.
                88  SEND-DATAONLY-ALARM          VALUE '4'.
-               88  SEND-ALL                     VALUE '5'.
+               88  SEND-ALL                     VALUE '6'.
 
        01 W-CONVERSIONS.
            05  W-PMT-CNVRT     PIC X(12).
