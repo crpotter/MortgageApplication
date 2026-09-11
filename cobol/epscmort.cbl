@@ -8,6 +8,8 @@
       *
       *.   10/1/2026 - Update flags
       *
+      *.   09/08/2026 - Update flags
+      *
       *    (C) 2017 IBM - JIM HILDNER RESERVED.
        ENVIRONMENT DIVISION.
       *
@@ -16,10 +18,10 @@
       *
        01  W-FLAGS.
            10  W-SEND-FLAG                    PIC X.
-               88  SEND-ERASE                   VALUE '1'.
-               88  SEND-DATAONLY                VALUE '2'.
-               88  SEND-MAPONLY                 VALUE '3'.
-               88  SEND-DATAONLY-ALARM          VALUE '4'.
+               88  SEND-ERASE                   VALUE '5'.
+               88  SEND-DATAONLY                VALUE '6'.
+               88  SEND-MAPONLY                 VALUE '7'.
+               88  SEND-DATAONLY-ALARM          VALUE '8'.
                88  SEND-ALL                     VALUE '6'.
 
        01 W-CONVERSIONS.
